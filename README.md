@@ -16,18 +16,17 @@
  também deve haver um espaço em branco após o $.
 
 
+	
 import java.io.IOException;
 import java.util.Scanner;
-
-public class URI 1008 {
 	
+	public class Main {
 	public static void main(String[] args) throws IOException {
         Scanner leitor = new Scanner(System.in);
         int funcionarios = leitor.nextInt();
         int horas = leitor.nextInt();
         double valorPorHora = leitor.nextDouble();
         double salario = horas * valorPorHora;
-        
         System.out.println("NUMBER = " + funcionarios);
         System.out.println(String.format("SALARY = U$ %.2f" , salario));
     }
