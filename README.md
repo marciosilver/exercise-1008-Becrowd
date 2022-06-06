@@ -29,6 +29,5 @@ import java.util.Scanner;
         double salario = horas * valorPorHora;
         System.out.println("NUMBER = " + funcionarios);
         System.out.println(String.format("SALARY = U$ %.2f" , salario));
+    	}
     }
-	
-}
