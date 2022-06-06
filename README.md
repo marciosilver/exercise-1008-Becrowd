@@ -1,6 +1,6 @@
 # exercise-1008-Becrowd
 
-/*
+
  QUESTÃO
  Escreva um programa que leia o número de um funcionário, seu número de 
  horas trabalhadas, o valor que recebe por hora e calcula o salário 
@@ -14,7 +14,7 @@
  Imprima o número e o salário do funcionário, conforme exemplo fornecido, 
  com um espaço em branco antes e depois da igualdade. No caso do salário, 
  também deve haver um espaço em branco após o $.
-*/
+
 
 import java.io.IOException;
 import java.util.Scanner;
